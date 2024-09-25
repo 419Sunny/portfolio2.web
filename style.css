@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    box-shadow:10px 10px 10px 10px rgba(0,0,0, 0.225);
+}
+.bg-2{
+    background: #121212;
+    color: white;
+}
+.btn{
+    padding: 10px 20px;
+}
+.border-custom{
+    border: 1px solid #444;
+    transition: all 0.5s ease-in-out;
+}
+.border-custom:hover{
+    border-color: #3982ef;
+}
+.icon-mobile,.icon-refresh{
+    width: 60px;
+    height: 60px;
+    background: #555;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+i:hover{
+    background-color: #3982ef;
+}
+
+.services:hover i{
+    background-color: #3982ef;
+}
+.swiper-pagination-bullet{
+    background-color: rgb(6, 14, 235);
+}
+.project{
+    overflow: hidden;
+    position: relative;
+}
+.project .overlay{
+    color: white;
+    padding: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    transform: translateY(60px);
+}
+.project:hover .overlay{
+    opacity: 1;
+    transform: translateY(0);
+}
+.review img{
+    width: 90px;
+    border-radius: 50%;
+}
+.team-member .divider{
+    background-color: #555;
+    height: 1px;
+
+}
+.team-member .links .icon{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    border: 1px solid #3982ef;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+
+}
+.team-member .links .icon:hover{
+    background-color: #3982ef;
+
+}
+#contact .form-control{
+    background: transparent;
+    border: 1px solid #555;
+    border-radius: 0px;
+    padding: 10px;
+    color: white;
+}
+#insta-section{
+    position: relative;
+}
+#insta-section .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer{
+    z-index: -222;
+}
+footer ul{
+    padding: 0;
+} 
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #3982ef;
+}
+.scroll-to-top{
+    text-decoration: none;
+    border-radius: 50%;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 222;
+}
+.scroll-to-top:hover{
+    color: white;
+}
